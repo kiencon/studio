@@ -1,0 +1,701 @@
+/* ==========================================================================
+   Bui Viet Son
+   ========================================================================== */
+
+html, body {
+    overflow-x: hidden;
+}
+body {
+  font-size: 18px;
+  background: #fdfdfd;
+  font-family: "Roboto", Tahoma, Arial, Sans-Serif;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+div#main {
+    min-height: 900px;
+}
+
+.address li {
+    font-size: 13px;
+    text-align: center;
+}
+
+ul.nav.menu-footer {
+    display: flex;
+    justify-content: center;
+}
+
+ul.nav.menu-footer li {font-size: 13px;padding: 5px;}
+
+section.address {
+    display: flex;
+}
+
+section.address ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+section.address ul li {
+    padding-right: 20px;
+}
+
+section.copy-right {
+    font-size: 13px;
+    text-align: center;
+}
+
+section.menu-footer {
+    width: 25%;
+}
+
+footer {
+    background: #fcfcfc;
+}
+
+section.menu-footer ul {
+    display: flex;
+}
+
+section.menu-footer ul li {
+    padding-right: 10px;
+    font-size: 13px;
+}
+
+section.menu-footer ul li {
+    max-width: 100px;
+}
+
+section.meu-footer ul li {
+    display: flex;
+}
+
+section#page-content {
+    margin-top: 20px;
+}
+
+section#social-menu {
+    margin-top: 110px;
+    position: relative;
+}
+
+section#social-menu ul {
+    font-size: 14px;
+    color: #00abf1;
+    padding: 0px 2px;
+    background: #fcfcfc;
+    width: 100%;
+}
+
+section#social-menu ul li {
+    float: left;
+    margin: 3px 10px;
+}
+
+.wrap-promotion, .social-menu, .wrap-page-content, .wrap-footer {
+    max-width: 940px!important;
+    position: relative;
+    display: flex;
+    justify-content: start;
+}
+
+.wrap-page-content, .wrap-footer {
+    display: block;
+}
+
+.wrap-promotion {
+  padding-top: 43px;
+}
+
+.news {
+    display: flex;
+    font-size: 16px;
+    color: #9E9E9E;
+    max-height: 50px;
+    justify-content: center;
+    line-height: 50px;
+    border-bottom: 2px solid rgba(206, 198, 198, 0.73);
+    border-top: 2px solid rgba(206, 198, 198, 0.73);
+}
+
+.img-promotion {
+    position: absolute;
+    right: 15px;
+}
+
+.news a {
+    color: #9E9E9E;
+    margin-right: 20px;
+}
+
+.news p {
+    font-family: cursive;
+}
+
+.news a:hover {
+    color: gray;
+}
+
+.owl-next, .owl-prev {
+    width: 10px;
+    height: 10px;
+    background: rgba(37, 36, 36, 0.55);
+    padding: 16px;
+    border-radius: 50%;
+    position: absolute;
+    color: #f6d2d2;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.owl-next {
+    right: 10px;
+}
+.owl-prev {
+    left: 10px;
+}
+i.fa.fa-angle-left, i.fa.fa-angle-right {
+    position: absolute;
+    top: -2px;
+    font-size: 34px;
+}
+i.fa.fa-angle-left {
+    left: 7px;
+}
+i.fa.fa-angle-right {
+    right: 7px;
+}
+
+.container.wrap-carousel {
+    max-width: 940px!important;
+    position: relative;
+}
+
+img#tag {
+    position: absolute;
+    right: 208px;
+    top: 0;
+    z-index: 1000;
+}
+
+.wrap-menu ul li a:hover {
+    background: transparent;
+}
+
+.wrap-menu .navbar-header {
+    max-height: 150px;
+    min-height: 110px;
+}
+
+.wrap-menu .navbar button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #d8d7d7!important;
+}
+
+.wrap-menu .navbar button span {
+    background: gray!important;
+}
+section.wrap-top-menu {
+    background: #000;
+    border-bottom: 4px solid red;
+    position: relative;
+}
+section.wrap-top-menu .container {
+    padding-right: 100px;
+    display: -webkit-flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+section.wrap-top-menu .container a p {
+    font-size: 11px;
+    margin-left: 20px;
+    color: #fff;
+}
+#container {
+  background: url("../images/bg-container.png");
+  min-height: 1000px;
+}
+
+form {
+  margin: 0;
+}
+a {
+  color: #333;
+  cursor: pointer;
+}
+a, a:focus {
+  outline: none;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: #0076a1;
+}
+input, input:focus {
+  outline: none
+}
+#container .container {
+  max-width: 1300px;
+  height: auto;
+}
+
+footer {
+    border-bottom: 5px solid #795548;
+    position: relative;
+}
+#container .containerFull {
+  max-width: 1300px;
+  height: auto;
+  padding: 0px 15px;
+  margin: auto;
+}
+body,h1,h2,h3,h4,h5,h6,p,a {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+section.wrap-menu {
+  position: relative;
+}
+
+section.wrap-menu .sf-menu {
+    display: flex;
+    height: 110px;
+    margin-right: 130px;
+    align-items: center;
+}
+
+section.wrap-menu .sf-menu .sub-menu ul li {
+    width: 205px;
+    height: 90px;
+    position: absolute;
+    top: 110px;
+    right: -82px;
+    background: #fcfcfc;
+    z-index: 999;
+    box-shadow: 2px 2px 3px 1px rgba(197, 197, 197, 0.5);
+    display: none;
+}
+
+section.wrap-menu .sf-menu .sub-menu ul li:hover {
+    border: none;
+}
+
+section.wrap-menu .sf-menu .sub-menu ul li:hover a {
+    border-bottom: 3px solid #fe527a;
+}
+
+section.wrap-menu .sf-menu .sub-menu ul li a {
+    position: absolute;
+    top: 12px;
+}
+
+section.wrap-menu .sf-menu .sub-menu:hover ul li {
+    display: block;
+}
+
+section.wrap-menu .sf-menu li:hover {
+    border-bottom: 3px solid #fe527a;
+}
+
+section.wrap-menu .sf-menu li a {
+    font-family: cursive;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px;
+    float: left;
+}
+
+section.wrap-menu .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 110px;
+}
+.top-page {
+  background: url("../images/top-content-1.png");
+  height: 70px;
+  width: 100%;
+}
+.main-page-content {
+  width: 100%;
+  background: url("../images/mid-content-2.jpg") repeat;
+}
+.bot-page {
+  background: url('../images/bot-content-2.png') no-repeat transparent;
+  height: 70px;
+}
+
+/* ==========================================================================
+   Responsive CSS Desktop
+   ========================================================================== */
+@media only screen and (min-width: 1300px) {
+  #container .container, #container .container-full {
+    width: 1300px;
+  }
+  section.wrap-top-menu .container {
+      padding-right: 220px;
+  }
+  .wrap-menu .navbar-header {
+    position: absolute;
+    left: 180px;
+  }
+  #logo img {
+      width: 80%;
+      margin-right: -20px;
+  }
+  section.wrap-menu {
+    min-height: 170px;
+  }
+  section.wrap-menu .sf-menu li {
+    height: 110px;
+    padding: 30px 10px;
+    position: relative;
+  }
+  section.wrap-menu .sf-menu li a {
+    line-height: 50px;
+  }
+
+  section.wrap-menu .sf-menu li img {
+      position: absolute;
+      right: 0;
+  }
+  section.wrap-menu .sf-menu .sub-menu {
+      position: absolute;
+      right: 305px;
+      width: 120px;
+  }
+}
+
+@media only screen and (min-width: 1239px) and (max-width: 1299px) {
+  #container .container, #container .container-full {
+    width: 1300px;
+  }
+  .wrap-menu .navbar-header {
+    position: absolute;
+    left: 180px;
+  }
+  #logo img {
+      width: 70%;
+  }
+  section.wrap-menu {
+    min-height: 170px;
+  }
+  section.wrap-menu .sf-menu li {
+    height: 70px;
+    padding: 10px;
+    position: relative;
+  }
+  section.wrap-menu .sf-menu li a {
+    line-height: 50px;
+  }
+
+  section.wrap-menu .sf-menu li img {
+      position: absolute;
+      right: 0;
+  }
+  section.wrap-menu .sf-menu .sub-menu {
+      position: absolute;
+      right: 332px;
+      top: 24px;
+      width: 120px;
+  }
+  .content {
+      display: flex;
+      justify-content: center;
+    }
+}
+
+
+
+/* ==========================================================================
+   Responsive CSS Landscape Tablet
+   ========================================================================== */
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+    #container .containerFull {
+        width: 100%;
+    }
+    .wrap-menu .navbar-header {
+    position: absolute;
+    left: 20px;
+  }
+  #logo img {
+      width: 70%;
+  }
+  section.wrap-menu {
+    min-height: 170px;
+  }
+  section.wrap-menu .sf-menu li {
+    height: 70px;
+    padding: 10px;
+    position: relative;
+  }
+
+section.wrap-menu .sf-menu .sub-menu ul li {
+    top: 88px;
+    right: -30px;
+}
+
+#tag {
+    right: 92px!important;
+}
+  section.wrap-menu .sf-menu li a {
+    line-height: 50px;
+  }
+  section.wrap-menu .sf-menu li img {
+      position: absolute;
+      right: 0;
+  }
+  section.wrap-menu .sf-menu .sub-menu {
+      position: absolute;
+      right: 132px;
+      top: 20px;
+      width: 130px;
+  }
+  .owl-next, .owl-prev {
+     padding: 23px!important;
+  }
+  i.fa.fa-angle-right, i.fa.fa-angle-left {
+    font-size: 45px;
+  }
+  .owl-prev {
+      left: 5px;
+  }
+
+  .owl-next {
+      right: 5px;
+  }
+  i.fa.fa-angle-right {
+      right: 12px;
+  }
+  i.fa.fa-angle-left {
+      left: 12px;
+  }
+}
+
+
+/* ==========================================================================
+   Responsive CSS Portrait Tablet
+   ========================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    #container .containerFull {
+        width: 100%;
+    }
+    section.wrap-top-menu .container {
+      padding-right: 40px;
+    }
+    section.wrap-menu .navbar {
+      display: block;
+    }
+    .wrap-menu .navbar-header {
+    position: absolute;
+    left: -15px;
+  }
+  #logo img {
+      width: 70%;
+  }
+  section.wrap-menu {
+    min-height: 170px;
+  }
+  section.wrap-menu .sf-menu {
+    padding-left: 80px;
+  }
+  section.wrap-menu .sf-menu li {
+    height: 70px;
+    padding: 10px;
+    position: relative;
+  }
+  section.wrap-menu .sf-menu li a {
+    line-height: 50px;
+  }
+  section.wrap-menu .sf-menu .sub-menu ul li {
+    position: absolute;
+    left: -97px;
+    top: 89px;
+  }
+  section.wrap-menu .sf-menu li img {
+      position: absolute;
+      right: 0;
+  }
+  section.wrap-menu .sf-menu .sub-menu {
+      position: absolute;
+      right: -35px;
+      top: 19px;
+      width: 120px;
+  }
+    .owl-next, .owl-prev {
+      padding: 16px!important;
+    }
+    .owl-next {
+        right: 10px;
+    }
+
+    .owl-prev {
+        left: 10px;
+    }
+    #tag {
+      display: none;
+    }
+    i.fa.fa-angle-right, i.fa.fa-angle-left {
+      font-size: 33px;
+    }
+
+    i.fa.fa-angle-right {
+        right: 8px;
+    }
+
+    i.fa.fa-angle-left {
+        left: 8px;
+    }
+    .content {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+}
+
+
+/* ==========================================================================
+   Responsive CSS Landscape Mobile
+   ========================================================================== */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  section.wrap-top-menu .container {
+    padding-right: 40px;
+  }
+  section.wrap-menu .navbar {
+    display: block;
+  }
+  section.wrap-menu .sf-menu {
+    display: block;
+    margin-left: 0;
+    height: 220px;
+  }
+  section.wrap-menu .sf-menu li {
+    min-height: auto;
+    width: 100px;
+    height: 30px;
+  }
+  section.wrap-menu .sf-menu li img {
+    display: none;
+  }
+  section.wrap-menu .sf-menu .sub-menu ul li {
+    display: block!important;
+    height: 30px;
+    top: 30px;
+    left: 30px;
+    background: none;
+    box-shadow: unset;
+  }
+  .owl-next, .owl-prev {
+     padding: 16px!important;
+  }
+  i.fa.fa-angle-right, i.fa.fa-angle-left {
+    font-size: 34px;
+  }
+  #tag {
+    display: none;
+  }
+  .news {
+      font-size: 13px;
+      display: block;
+      max-height: 100px;
+      line-height: 30px;
+  }
+
+  .img-promotion {
+      position: absolute;
+      right: 15px;
+      width: 40%;
+  }
+  section#social-menu {
+      margin-top: 50px;
+  }
+}
+
+
+/* ==========================================================================
+   Responsive CSS Portrait Mobile
+   ========================================================================== */
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+  section.wrap-top-menu .container {
+    padding-right: 20px;
+  }
+  section.wrap-menu .navbar {
+    display: block;
+  }
+  section.wrap-menu .sf-menu {
+    display: block;
+    margin-left: 0;
+    height: 220px;
+  }
+  section.wrap-menu .sf-menu li {
+    min-height: auto;
+    width: 100px;
+    height: 30px;
+  }
+  section.wrap-menu .sf-menu li img {
+    display: none;
+  }
+  section.wrap-menu .sf-menu .sub-menu ul li {
+    display: block!important;
+    height: 40px;
+    top: 20px;
+    left: 30px;
+    box-shadow: unset;
+    background: transparent;
+  }
+  #tag {
+    display: none;
+  }
+  .owl-next, .owl-prev {
+     padding: 12px!important;
+  }
+  i.fa.fa-angle-right, i.fa.fa-angle-left {
+    font-size: 26px;
+  }
+  i.fa.fa-angle-right {
+      right: 6px;
+  }
+  i.fa.fa-angle-left {
+      left: 6px;
+  }
+  .wrap-promotion {
+    display: block;
+    padding: 0;
+  }
+  .news {
+      display: block;
+      max-height: 200px;
+      line-height: 25px;
+      margin: 20px;
+      font-size: 15px;
+  }
+  .img-promotion {
+      position: absolute;
+      top: 100px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 86%;
+  }
+  section#social-menu {
+      margin: 130px 0;
+  }
+  section#social-menu .social-menu ul {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      margin-top: 20px;
+      width: 93%;
+  }
+}
